@@ -6,10 +6,10 @@
            review="https://review.arrowos.net/"
            revision="refs/heads/arrow-13.0" />
    
-     <!-- GitHub (Evolution X) -->
+  <!-- GitHub (Evolution X) -->
   <remote  name="evo"
            fetch="https://github.com/Evolution-X"
-           revision="tiramisu" />
+           revision="refs/heads/tiramisu" />
 
   <!-- external repos -->
   <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="arrow" />
