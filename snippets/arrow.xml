@@ -10,10 +10,6 @@
   <remote  name="evo"
            fetch="https://github.com/Evolution-X"
            revision="refs/heads/tiramisu" />
-   
-  <!-- Hardware repos -->
-  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom_camera" remote="arrow" />
-  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" remote="arrow" />
 
   <!-- Packages repos -->
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="evo" />
