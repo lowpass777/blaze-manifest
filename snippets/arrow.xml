@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
    
-      <!-- Github -->
-   <remote  name="arrow"
+  <remote  name="arrow"
            fetch="https://github.com/ArrowOS"
-           revision="arrow-13.0" />
+           review="https://review.arrowos.net/"
+           revision="refs/heads/arrow-13.0" />
    
      <!-- GitHub (Evolution X) -->
   <remote  name="evo"
