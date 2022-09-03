@@ -2,9 +2,10 @@
 <manifest>
 
    <!-- Github -->
-   <remote  name="lineage"
+  <remote  name="lineage"
            fetch="https://github.com/LineageOS"
-           revision="lineage-19.1" />
+          review="https://review.lineageos.org/"
+          revision="refs/heads/lineage-19.1" />
 
     <!-- add guards for CAF repositories -->
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
