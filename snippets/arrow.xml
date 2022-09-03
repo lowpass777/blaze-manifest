@@ -6,10 +6,17 @@
            review="https://review.arrowos.net/"
            revision="refs/heads/arrow-13.0" />
    
-  <!-- GitHub (Evolution X) -->
   <remote  name="evo"
            fetch="https://github.com/Evolution-X"
            revision="refs/heads/tiramisu" />
+   
+  <remote  name="arrow-gitlab"
+           fetch="https://gitlab.com/arrowos-project"
+           review="https://review.arrowos.net/"
+           revision="refs/heads/arrow-13.0" />
+   
+  <!-- Gapps repo -->
+  <project path="vendor/gapps" name="android_vendor_gapps" remote="arrow-gitlab" clone-depth="1" />
 
   <!-- Packages repos -->
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="evo" />
