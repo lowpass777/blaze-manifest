@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-   <!-- Github -->
-   <remote  name="arrow"
-           fetch="https://github.com/ArrowOS"
-           revision="arrow-12.0" />
    
       <!-- Github -->
    <remote  name="arrow"
