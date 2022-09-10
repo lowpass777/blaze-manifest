@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-  <!-- GitHub -->
-  <remote  name="github"
-           fetch="https://github.com" />
-
-  <!-- GitLab -->
-  <remote  name="gitlab"
-           fetch="https://gitlab.com" />
-   
+  
   <remote  name="arrow"
            fetch="https://github.com/ArrowOS"
            review="https://review.arrowos.net/"
